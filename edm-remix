@@ -1,7 +1,8 @@
---output "/sdcard/Music/%(playlist_title)s/%(title)s - %(artist)s.%(ext)s"
---extractor-args "youtube:po_token=web_music.gvs+Ml-IXMV09ePABIhg1G2ileypj4c0ON8Cj08IkAYdMqh_m7UQuHJ1r0IZTGvl9Lh4NhD1ch5pDBjRqhOq56iW41x6vIDIczGedgrAO8vmjDb91V87vk_2vP4el4-wq-2hEQ=="
---cookies "/sdcard/Download/cookies.txt"
---download-archive "/sdcard/Music/EDM-Remix.txt"
+--ffmpeg-location "D:\Programs\yt-dlp\ffmpeg\bin"
+--output "Music\%(playlist_title)s\%(title)s - %(artist)s.%(ext)s"
+--extractor-args "youtube:po_token=web_music.gvs+Ml_XXcq-pUrb19dhtFAoMJ5iedCWAZ1AjTbTU-9w4c3EiYOCQFTuOeLdPL2LQZbecHd2YDoul_ZtUn9IZn5zZ5iehQASb1tk7jaf7QYhBRVo-LhSTTy41DW_3NLpKw85wQ=="
+--cookies "cookies.txt"
+--download-archive "Music\EDM-Remix.txt"
 --downloader aria2c
 --newline
 --no-restrict-filenames
@@ -10,7 +11,7 @@
 --embed-metadata
 --embed-subs
 --convert-subs lrc
+--format 251
 --extract-audio
---audio-quality 251
---audio-format opus
-https://music.youtube.com/playlist?list=PLWOSsn9ZiegP_S92Pt2bO8HSebtGhn6iQ&si=h2yYbXfGwF7f358h
+--audio-quality 0
+https://music.youtube.com/playlist?list=PLWOSsn9ZiegP_S92Pt2bO8HSebtGhn6iQ&si=RqVAfnGOdWPRckoE

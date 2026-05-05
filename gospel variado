@@ -2,7 +2,7 @@
 --output "Music\%(playlist_title)s\%(title)s - %(artist)s.%(ext)s"
 --extractor-args "youtube:po_token=web_music.gvs+Ml_XXcq-pUrb19dhtFAoMJ5iedCWAZ1AjTbTU-9w4c3EiYOCQFTuOeLdPL2LQZbecHd2YDoul_ZtUn9IZn5zZ5iehQASb1tk7jaf7QYhBRVo-LhSTTy41DW_3NLpKw85wQ=="
 --cookies "cookies.txt"
---download-archive "Music\Gospel.txt"
+--download-archive "Music\Gospel Variado.txt"
 --downloader aria2c
 --newline
 --no-restrict-filenames
